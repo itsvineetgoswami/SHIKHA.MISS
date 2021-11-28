@@ -1,0 +1,78 @@
+body{
+    background-image: url(file:///C:/Users/91935/Desktop/SHIKHAmiss/images/teaching%20plans/R.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+     
+     width: 100%;
+     margin-top: 10px; 
+     margin-bottom: 10px; 
+     align-items: center;
+ }   
+ .select ul{
+    list-style-type: none;
+    right: -30px;
+    display: inline-flex;
+    font-family: 'Carter One', cursive;
+  
+   
+}
+.select ul li{
+    padding: 3px;
+    text-align: center;
+}
+.select ul li:hover{
+    background: black ;
+    border-radius: 3px;
+    box-shadow: 40 0 0 0 white;
+}
+.select ul{
+    text-align: center;
+    padding-bottom: 10px;
+}
+nav a{
+  
+    text-decoration: none;
+    transition-duration: 300ms ;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgba(243, 243, 247, 0.774);  
+    
+}
+.sub-menu1 {
+    display: none;
+}
+.select ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background : rgba(0, 0, 0, 0.411);
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.select ul li:hover .sub-menu1 ul{
+    display: block;
+    
+}
+.select ul li:hover .sub-menu1 ul li{
+    
+
+   border-bottom: 1px double rgba(243, 243, 247, 0.774);  
+   
+   border-radius: 0;
+   text-align: left;
+}
+.fas {
+    padding-right: 30px;
+}
